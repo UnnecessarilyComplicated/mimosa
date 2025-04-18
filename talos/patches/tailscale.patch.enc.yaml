@@ -1,0 +1,21 @@
+apiVersion: ENC[AES256_GCM,data:uCkq2PEEAVk=,iv:FvfIQJxj5860dU3zUkmj7zlmFvL2ERyrp3C/C63v/Q4=,tag:gYhezqKw3D6/YnhLUZB2vg==,type:str]
+kind: ENC[AES256_GCM,data:83FMeKx+t05wLTz7SGYydxiVUwfZZQ==,iv:Kz9FDFebShXd/fxPtDuQGrLuehxO9Zl3GqxDnrVSi78=,tag:5VYtSHd+0ZXiB3sgDq+g+A==,type:str]
+name: ENC[AES256_GCM,data:Q7Tz9hkv1DjA,iv:KlC3Xif4awcBTIvQPtu8SKC3feB0Izfg7Up1FG9pAMU=,tag:XwDz8R83MSFacaTdC78AIw==,type:str]
+environment:
+    - ENC[AES256_GCM,data:bYVNlTA57PFrBFo9A1ER+kDn7yZcb5u7Wo1JVO1+Jj5hZCqS9hazUaXuYYIFbJ3RA77Q2fxMjQVIOCf+5CpE0PpheXKXeDiA,iv:n8YorfCtqnjn0vOoZWPK2v3HZczZnSD35ZEkIfbHndc=,tag:AfbHv1lfgun8gaxuzcSzHA==,type:str]
+sops:
+    age:
+        - recipient: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJoH8OzhTREXOyjpCpHsYjrrWJB8lx5gj5kZZl+HR1Gs lyra@requiem.garden
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IHNzaC1lZDI1NTE5IGYrOWRQdyBDNjdo
+            dGJWblBkaU11SnFrQkJBbGh5aFVxc1VnMEtLNzdNMHNMSWN0UUFZCk5HUGw2UFV4
+            ZmJnLzNzU1d0NDdVcml0aEFIOUdHcmRNTnhGb3Rabkt3ODQKLS0tIHpuSVBQN0tL
+            UUtnZVh2YklVc0tEVS95MGFEM2pkeFdKN0pBMzBzYTZzUmMK6CCsGZCvvZ7k9s1/
+            ewl0XMr5KjE3NvOdue7CKxmlQkMZQu0RQMtq6zYTMAQU5VTQxRUHkgL7cT5Ssytq
+            Gz106g==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2025-04-17T09:29:13Z"
+    mac: ENC[AES256_GCM,data:mpUWvQkvYAOgp+vxBZJ3Pt6+rQ8WUTsOXTny3WJk+27/qqFW1R4Cj+8+uVRJOS3/rMQTkYewlrbJ7/xYYY8ikLLpKx5XZ3vPofIbyQTZWOpg3i3eb4YhO026K7fijgq/c3rzvA3LvG9pftCXspBGWqbO76H4AblSEtSuR/SEPAs=,iv:y8kNo53dpTc5Q+iT6WgLEQUDa2CoF2kf5tYOVC/E7tI=,tag:B/Jl9n1wXies7Kyct/Ep+A==,type:str]
+    unencrypted_suffix: _unencrypted
+    version: 3.10.1

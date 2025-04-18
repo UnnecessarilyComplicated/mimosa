@@ -1,0 +1,13 @@
+.direnv
+.DS_Store
+.pre-commit-config.yaml
+
+# Talos Linux Secrets
+talos/controlplane.yaml
+talos/worker.yaml
+talos/talosconfig
+talos/secrets.yaml
+
+# Secrets
+talos/patches/tailscale.patch.yaml
+k8s/tailscale-operator/values.yaml

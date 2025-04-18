@@ -1,0 +1,16 @@
+machine:
+  network:
+    interfaces:
+      - deviceSelector:
+          physical: true
+        routes:
+          - network: 198.18.0.0/16
+            gateway: 192.168.31.100
+            metric: 1023
+          - network: 0.0.0.0/0 # The route's network.
+            gateway: 192.168.31.1 # The route's gateway.
+            metric: 1024
+        dhcp: false
+    nameservers:
+      - 100.100.100.100 # Tailscale DNS
+      - 192.168.31.100 # ivy

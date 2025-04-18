@@ -1,0 +1,8 @@
+machine:
+  network:
+    hostname: mimosa-worker-3
+    interfaces:
+      - deviceSelector:
+          physical: true
+        addresses:
+          - 192.168.31.203/24
